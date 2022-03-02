@@ -826,10 +826,6 @@ hr {
 .aside-img {
   padding: 4px;
 }
-/* .ab img{
-    width: 100%;
-    object-fit: cover;
-} */
 .post {
   width: 100%;
   background-color: #e4e2e2;
@@ -838,7 +834,8 @@ hr {
   font-size: 12px;
 }
 .post h4 {
-  font-weight: 600;
+    font-size: 1rem;
+  font-weight: 700;
   padding: 16px;
 }
 .post h5 {
@@ -865,7 +862,9 @@ hr {
   width: 100%;
   margin: 1rem 0;
 }
-
+.media-block{
+    padding: 20px;
+}
 .feed {
   display: flex;
   width: 100%;
